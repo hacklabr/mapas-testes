@@ -11,6 +11,7 @@ return [
 
     'namespaces' => array(
         'MapasCulturais\Themes' => THEMES_PATH,
+        'MapasCulturais\Themes\BaseV1' => THEMES_PATH . 'BaseV1/',
         'MapasCulturais\Themes\BaseV2' => THEMES_PATH . 'BaseV2/',
         'Subsite' => THEMES_PATH . 'Subsite/',
     ),
