@@ -1,4 +1,4 @@
-# Mapas Culturais Base Project
+# Mapas Culturais Base Project - MapasDev
 Este é um projeto base para desenvolvimento de temas e plugins.
 
 ## Estrutura de arquivos
