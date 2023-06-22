@@ -69,6 +69,8 @@ services:
       - POSTGRES_USER=mapas
       - POSTGRES_DB=mapas
       - POSTGRES_DB_TEST=mapasculturais_test
+      - TZ=GMT+3
+      - PGTZ=GMT+3
 #    ports:
 #      - "5432:5432"
     volumes:
