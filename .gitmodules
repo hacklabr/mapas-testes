@@ -3,4 +3,4 @@
 	url = https://github.com/mapasculturais/plugin-MultipleLocalAuth
 [submodule "plugins/RegistrationPayments"]
 	path = plugins/RegistrationPayments
-	url = git@github.com:mapasculturais/plugin-RegistrationPayments.git
+	url = https://github.com/mapasculturais/plugin-RegistrationPayments.git
