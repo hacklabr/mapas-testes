@@ -3,6 +3,9 @@
 return [
     'plugins' => [
         'MultipleLocalAuth' => [ 'namespace' => 'MultipleLocalAuth' ],
-        'RegistrationPayments' => ['namespace' => 'RegistrationPayments'],
+        'RegistrationPayments' => [
+            'namespace' => 'RegistrationPayments',
+            'config' => [],
+        ],
     ]
 ];
