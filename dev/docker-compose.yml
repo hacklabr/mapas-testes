@@ -23,6 +23,7 @@ services:
       - ../plugins/SamplePlugin:/var/www/src/plugins/SamplePlugin
       - ../plugins/MultipleLocalAuth:/var/www/src/plugins/MultipleLocalAuth
       - ../plugins/RegistrationPayments:/var/www/src/plugins/RegistrationPayments
+      - ../plugins/AdminLoginAsUser:/var/www/src/plugins/AdminLoginAsUser
 
     environment:
       - PENDING_PCACHE_RECREATION_INTERVAL=10
