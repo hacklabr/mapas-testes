@@ -39,16 +39,16 @@ services:
       - ./docker-data/saas-files:/var/www/var/saas-files
       - ./docker-data/sessions:/var/www/var/sessions
       - ./docker-data/logs:/var/www/var/logs
-
-      - ./docker/production/config.d /var/www/config/prod.d
     links:
       - db
       - redis
       - sessions
     environment:
       - REDIS_CACHE=redis
-      - SESSIONS_SAVE_PATH=tcp://sessions:6379
-
+      - SESSIONS_SAVE_PATH=tcp://redis:6379
+      - PENDING_PCACHE_RECREATION_INTERVAL=1
+      - JOBS_INTERVAL=1
+      # - APP_MODE=
     depends_on:
       - db
       - redis
