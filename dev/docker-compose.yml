@@ -23,6 +23,9 @@ services:
       - ../plugins/SamplePlugin:/var/www/src/plugins/SamplePlugin
       - ../plugins/MultipleLocalAuth:/var/www/src/plugins/MultipleLocalAuth
       - ../plugins/RegistrationPayments:/var/www/src/plugins/RegistrationPayments
+      - ../plugins/Accessibility:/var/www/src/plugins/Accessibility
+      - ../plugins/Analytics:/var/www/src/plugins/Analytics
+      - ../plugins/MapasBlame:/var/www/src/plugins/MapasBlame
       - ../plugins/AdminLoginAsUser:/var/www/src/plugins/AdminLoginAsUser
 
     environment:
